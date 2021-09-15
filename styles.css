@@ -1,0 +1,34 @@
+#bento{
+    display:grid;
+    grid-template-columns: 113px 180px 115px;
+    grid-template-rows: 75px 102px 201px;
+    grid-template-areas: 
+    "fish-flag fish-flag vase-short"
+    "map map vase-short"
+    "vase-tall bamboo bamboo"
+    "vase-tall quadropus quadropus" ;
+}
+
+#bamboo{
+    grid-area: bamboo;
+}
+
+#fish-flag{
+    grid-area: fish-flag;
+}
+
+#map{
+    grid-area: map;
+}
+
+#quadropus{
+    grid-area: quadropus;
+}
+
+#vase-short{
+    grid-area: vase-short;
+}
+
+#vase-tall{
+    grid-area: vase-tall;
+}
